@@ -7,7 +7,7 @@ setInterval(() => {
 
     var time = new Date(); 
 
-    if (time.getHours < 12) {
+    if (time.getHours >= 1) {
 
         hours.innerText = time.getHours();
         min.innerText = time.getMinutes();
