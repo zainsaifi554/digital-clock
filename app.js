@@ -15,7 +15,7 @@ setInterval(() => {
         
     }
     else {
-        hours.innerText = time.getHours()-12;
+        hours.innerText = time.getHours()-11;
         min.innerText = time.getMinutes();
         sec.innerText = time.getSeconds()+":" + "PM";
 
