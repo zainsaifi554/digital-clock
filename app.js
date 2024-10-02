@@ -7,7 +7,7 @@ setInterval(() => {
 
     var time = new Date(); 
 
-    if (time.getHours >= 1) {
+    if (time.getHours >= 13) {
 
         hours.innerText = time.getHours();
         min.innerText = time.getMinutes();
@@ -15,7 +15,7 @@ setInterval(() => {
         
     }
     else {
-        hours.innerText = time.getHours()-11;
+        hours.innerText = time.getHours()-12;
         min.innerText = time.getMinutes();
         sec.innerText = time.getSeconds()+":" + "PM";
 
