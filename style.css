@@ -12,7 +12,15 @@ body{
     width: 100vw;
 
 }
-
+#amPm{
+    color: white;
+    margin-bottom: 100px;
+    background-color: aqua;
+    position: absolute;
+    right: 25px;
+    border-radius: 3px;
+    
+}
 #main{
     background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
     backdrop-filter: blur(10px);
