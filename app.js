@@ -7,7 +7,7 @@ setInterval(() => {
 
     var time = new Date(); 
 
-    if (time.getHours() <=13) {
+    if (time.getHours <=13) {
    
 
         hours.innerText = time.getHours();
