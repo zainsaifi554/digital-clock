@@ -15,14 +15,14 @@ body{
 #amPm{
     color: white;
     margin-bottom: 100px;
-    background-color: aqua;
+    background: linear-gradient(rgb(255, 138, 4),rgb(255, 3, 213));
     position: absolute;
     right: 25px;
     border-radius: 3px;
     
 }
 #main{
-    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    background: linear-gradient(90deg,rgb(0, 0, 0) ,blue,black);
     backdrop-filter: blur(10px);
     --webkit-backdrop-filter:blur(10px);
 box-shadow: 0 8px 32px 0 rbga(0,0,0,0.37);
